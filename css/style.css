@@ -1,0 +1,30 @@
+body {
+    font-weight: 300;
+    color: white;
+    background: url("../img/bg2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #222;
+}
+
+.nav-wrapper {
+    padding-left: 15px;
+}
+
+#main {
+    min-height: 86vh;
+}
+
+.lead {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.lead * {
+    font-weight: 300;
+}
+
+#showcase {
+    margin: 0;
+    width: 100vw;
+    background: white;
+}
