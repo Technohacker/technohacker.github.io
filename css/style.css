@@ -42,7 +42,8 @@ body {
 }
 
 footer {
-    height: 5vh;
+    margin-top: -20px;
+    min-height: 5vh;
     padding-left: 10px;
 }
 
