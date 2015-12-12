@@ -1,7 +1,7 @@
 body {
     font-weight: 300;
     color: white;
-    background: url("../img/bg2.png") no-repeat center center fixed;
+    background: url("../img/bg2.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: #222;
     overflow-x: hidden;
@@ -47,6 +47,7 @@ footer {
 }
 
 .preloader {
+    z-index: 9999999999999999999999999;
     position:fixed;
     top: 0;
     left: 0;
