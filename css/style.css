@@ -1,3 +1,8 @@
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
 body {
     font-weight: 300;
     color: white;
@@ -55,6 +60,11 @@ footer {
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,0.7);
+}
+
+.preloader.loaded {
+    animation: fadeOut 0.5s ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 .preloader > .preloader-wrapper {
